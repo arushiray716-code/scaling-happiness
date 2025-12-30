@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Shop</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🛒 Varun's Mini Shop</h1>
+  </header>
+
+  <main>
+    <div class="product">
+      <img src="https://via.placeholder.com/150" alt="Product 1">
+      <h2>Product 1</h2>
+      <p>₹499</p>
+      <button onclick="addToCart('Product 1')">Add to Cart</button>
+    </div>
+
+    <div class="product">
+      <img src="https://via.placeholder.com/150" alt="Product 2">
+      <h2>Product 2</h2>
+      <p>₹699</p>
+      <button onclick="addToCart('Product 2')">Add to Cart</button>
+    </div>
+  </main>
+
+  <section class="cart">
+    <h2>Your Cart</h2>
+    <ul id="cartItems"></ul>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
